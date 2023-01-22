@@ -1,7 +1,7 @@
 
 Program: cinema-tickets-javascript
 Author: Nadiia Voloshyna
-Last date modified: 21/01/23
+Last date modified: 22/01/23
 
 The purpose of this program is to provide a working implementation of a `TicketService`. 
 The input is an integer representing the purchaser account id, the array of objects representing the types and quantity of tickets.
@@ -12,6 +12,7 @@ a payment request to the `TicketPaymentService`, a seat reservation request to t
 
 Input the account id and tickets request
 Check if account id greater than zero
+Request the database for the account id holder balance
 Compute the total amount using for loop and switch statement
 Calculate the tickets quantity
 Check if the quantity does not exceed maximum of 20 tickets 
@@ -24,11 +25,15 @@ Make a seat reservation request to the `SeatReservationService`
    adult price
    child price
    infant price
+   account balance
 2. The inputs are
-   account if
+   account id
    tickets request
 3. Computations:
-   
+   amount for the requested tickets
+   number of seats to reserve
 4. The outputs are
    total amount
    number of seats to reserve
+   payment request
+   seat reservation request

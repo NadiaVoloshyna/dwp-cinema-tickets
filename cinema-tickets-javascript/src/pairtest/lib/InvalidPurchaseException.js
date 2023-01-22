@@ -1,14 +1,10 @@
 export default class InvalidPurchaseException extends Error {
   constructor(message) {
-    super(message)
-  }
-
-  run() {
-    throw new Error(this.message);
+    super(message);
+    this.message = message;
+    this.name = "InvalidPurchaseException";
   }
 }
 
 
-
-  
  
