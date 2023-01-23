@@ -1,11 +1,11 @@
 
 Program: cinema-tickets-javascript
 Author: Nadiia Voloshyna
-Last date modified: 22/01/23
+Last date modified: 23/01/23
 
 The purpose of this program is to provide a working implementation of a `TicketService`. 
 The input is an integer representing the purchaser account id, the array of objects representing the types and quantity of tickets.
-The output is an integer labeled as amount for the requested tickets, an integer labeled as no of seats to reserve, 
+The output is an integer labeled as amount for the requested tickets, an integer labeled as number of seats to reserve, 
 a payment request to the `TicketPaymentService`, a seat reservation request to the `SeatReservationService`.
 
 ## Pseudocode
@@ -25,7 +25,6 @@ Make a seat reservation request to the `SeatReservationService`
    adult price
    child price
    infant price
-   account balance
 2. The inputs are
    account id
    tickets request
